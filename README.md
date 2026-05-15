@@ -1,13 +1,8 @@
 ## 🤖 Project 2: Predictive Modeling (Titanic Survival)
-**Goal**: Build a supervised learning model to predict whether a passenger survived the Titanic disaster.
-
-### Technical Implementation:
-* **Algorithm**: Random Forest Classifier.
-* **Feature Engineering**: Handled missing data for 'Age' and 'Embarked' and utilized Label Encoding for categorical variables.
-* **Evaluation Metrics**:
-    * **Confusion Matrix**: To visualize True Positives vs. False Positives.
-    * **ROC Curve**: To measure the model's classification performance (AUC score).
-* **Validation Strategy**: 80/20 Train-Test split.
-
-### Outcome:
-The model successfully predicts survival outcomes with high accuracy, demonstrating an understanding of supervised learning workflows.
+### 📊 Project Output
+The `predictive_modeling.py` script:
+1. Loads the Titanic dataset directly from a remote URL.
+2. Cleans and encodes the data for machine learning.
+3. Trains a Random Forest Classifier.
+4. Generates a **Confusion Matrix** and **ROC Curve** (saved/displayed during execution).
+5. Achieves an accuracy of approximately 82%.
